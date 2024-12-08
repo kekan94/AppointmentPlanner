@@ -6,11 +6,11 @@ export const Tile = ({ name, description }) => {
       <p className="tile-title tile">
         {name}
       </p>
-      {Object.values(description).map((value, index) => {
+      {(Object.values(description)).map((value, index) => (
         <p key={index} className="tile">
           {value}
         </p>
-      })}
+      ))}
     </div>
   );
 };

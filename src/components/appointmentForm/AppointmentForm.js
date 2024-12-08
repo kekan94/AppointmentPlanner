@@ -76,7 +76,7 @@ export const AppointmentForm = ({
           name="contact"
           value={contact}
           contacts={contactNames}
-          onChange={handleContactChange}
+          handleContactChange={handleContactChange}
         />
         <label>
           <input type="submit" value="Add Appointment" aria-label="Add Appointment" />
